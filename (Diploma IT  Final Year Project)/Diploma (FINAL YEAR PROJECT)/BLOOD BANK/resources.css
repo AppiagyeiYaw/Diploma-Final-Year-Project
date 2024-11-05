@@ -1,0 +1,284 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #f8f9fa;
+  }
+  
+  /* Header Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo h1 {
+  color: #d9534f;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #d9534f;
+  color: #fff;
+}
+  
+  /* Banner Styles */
+  .banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 40px;
+  }
+  
+  .education-resources-section {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education-resources-section h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .education-resources-section p {
+    margin-bottom: 20px;
+  }
+  
+  .info-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .info-column {
+    flex: 1;
+    min-width: 300px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .info-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .info-column h3 {
+    font-size: 1.5rem;
+    color: #d9534f;
+    margin-top: 10px;
+  }
+  
+  .info-column p,
+  .info-column ul {
+    margin-top: 10px;
+  }
+  
+  /* Additional Information Styles */
+  .additional-info {
+    margin-top: 40px;
+  }
+  
+  .additional-info h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .additional-info ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .additional-info p {
+    margin-bottom: 20px;
+  }
+  
+  /* Call to Action Styles */
+  .call-to-action {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .call-to-action h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .call-to-action p {
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action .cta-btn {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .call-to-action .cta-btn:hover {
+    background-color: #c9302c;
+  }
+  
+  /* Statistics Section Styles */
+  .statistics-section {
+    margin-top: 40px;
+  }
+  
+  .statistics-section h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .stats-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .stat {
+    flex: 1;
+    min-width: 150px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat h3 {
+    font-size: 2rem;
+    color: #d9534f;
+  }
+  
+  .stat p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Footer */
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  text-align: left;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.footer-logo {
+  flex: 1;
+  max-width: 200px;
+}
+
+.footer-logo h1 {
+  font-size: 1.8rem;
+  color: #ff3333;
+}
+
+.footer-links, .footer-contact, .footer-social {
+  flex: 1;
+  max-width: 250px;
+  margin: 0 1rem;
+}
+
+.footer-links h3, .footer-contact h3, .footer-social h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-contact p {
+  margin: 0.5rem 0;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.social-icon {
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+.social-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer-bottom a {
+  color: #ff3333;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
